@@ -78,7 +78,11 @@ export default function Command() {
       </MenuBarExtra.Section>
       <MenuBarExtra.Section>
         <MenuBarExtra.Item icon={Icon.Gear} title="Open Preferences" onAction={openExtensionPreferences} />
-        <MenuBarExtra.Item icon={{source:WISE_FAVICON, mask:Image.Mask.Circle}} title="Open Wise" onAction={() => open("https://wise.com")} />
+        <MenuBarExtra.Item
+          icon={{ source: WISE_FAVICON, mask: Image.Mask.Circle }}
+          title="Open Wise"
+          onAction={() => open("https://wise.com")}
+        />
       </MenuBarExtra.Section>
     </MenuBarExtra>
   );
