@@ -64,7 +64,6 @@
           "required": true
         }
       ],
-      "disabledByDefault": true,
       "mode": "view"
     },
     {
@@ -81,7 +80,6 @@
           "required": true
         }
       ],
-      "disabledByDefault": true,
       "mode": "view"
     },
     {
