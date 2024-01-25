@@ -46,7 +46,7 @@
     {
       "name": "get-profiles",
       "title": "Get Profiles",
-      "subtitle": "Get all profiles related to the account",
+      "subtitle": "Wise",
       "description": "Get all profiles related to the account",
       "mode": "view"
     },
@@ -54,7 +54,7 @@
       "name": "get-balances",
       "title": "Get Balances",
       "description": "Get all balances of a profile",
-      "subtitle": "Get all balances of a profile",
+      "subtitle": "Wise",
       "arguments": [
         {
           "name": "profileId",
@@ -71,7 +71,7 @@
       "name": "get-transactions",
       "title": "Get Transactions",
       "description": "Get all transactions of a profile",
-      "subtitle": "Get all transactions of a profile",
+      "subtitle": "Wise",
       "arguments": [
         {
           "name": "profileId",
@@ -87,7 +87,7 @@
     {
       "name": "display-balances",
       "title": "Display Balances and Today's Transactions",
-      "subtitle": "Show balances and today's transactions in the menu bar",
+      "subtitle": "Wise",
       "description": "Display Balances and Today's Transactions",
       "keywords": [
         "wise",
