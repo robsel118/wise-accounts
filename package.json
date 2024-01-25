@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "wise",
-  "title": "Wise",
-  "description": "View Wise profiles and balances",
+  "name": "wise-accounts",
+  "title": "Wise Accounts",
+  "description": "View Wise profiles, balances, and Transactions",
   "icon": "command-icon.png",
   "author": "robsel118",
   "categories": [
