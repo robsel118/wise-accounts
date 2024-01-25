@@ -53,7 +53,6 @@ export default function Command() {
             onAction={() => {
               open(`https://wise.com/balances/${balance.id}`);
             }}
-            alternate={<MenuBarExtra.Item title="some" />}
           />
         ))}
       </MenuBarExtra.Section>
