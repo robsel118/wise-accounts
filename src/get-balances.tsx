@@ -13,6 +13,7 @@ import {
 import { wiseReadApiToken } from "./helpers/preferences";
 import { Balance, fetchBalances } from "./api/balances";
 import { useCachedState } from "@raycast/utils";
+import {filterPreferedBalances} from './helpers/filterPreferedBalances';
 
 export default function Command(props: LaunchProps<{ arguments: { profileId: string } }>) {
   const profileId = props.arguments.profileId;
@@ -49,8 +50,7 @@ export default function Command(props: LaunchProps<{ arguments: { profileId: str
   }
   return (
     <List isLoading={isLoading} isShowingDetail>
-      {balances
-        ?.filter((balance) => balance.visible)
+      {filterPreferedBalances(balances)
         .map((balance) => (
           <List.Item
             key={balance.id}

@@ -1,7 +1,7 @@
 import { Balance } from "../api/balances";
 import { displayEmptyBalances } from "./preferences";
 
-export const returnPreferedBalances = (balances?: Balance[]): Balance[] => {
+export const filterPreferedBalances = (balances?: Balance[]): Balance[] => {
   if (!balances) return [];
   if (displayEmptyBalances) return balances;
 
